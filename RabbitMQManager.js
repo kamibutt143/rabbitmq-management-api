@@ -1,5 +1,5 @@
 const generic = require('./lib/generic.js');
-const bindings = require('./lib/binding.js');
+const binding = require('./lib/binding.js');
 const channel = require('./lib/channel.js');
 const cluster = require('./lib/cluster.js');
 const connection = require('./lib/connection.js');
@@ -22,7 +22,7 @@ class RabbitMQManager {
         this.client = new RabbitMQAPIClient(config);
         
         Object.assign(this, generic);
-        Object.assign(this, bindings);
+        Object.assign(this, binding);
         Object.assign(this, channel);
         Object.assign(this, cluster);
         Object.assign(this, connection);
