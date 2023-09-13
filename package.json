@@ -2,6 +2,9 @@
   "name": "rabbitmq-management-api",
   "version": "1.0.0",
   "description": "",
+  "main" : "RabbitMQManager.js",
+  "scripts": {
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kamibutt143/rabbitmq-management-api.git"
