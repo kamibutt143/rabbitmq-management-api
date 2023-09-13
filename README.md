@@ -23,7 +23,7 @@ Our Node.js RabbitMQ HTTP API Client is compatible with RabbitMQ 3.x versions. P
 Create a RabbitMQ Manager client
 ``` js
     // Import the RabbitMQManagerClient module from the specified path
-    var RabbitMQManager = require('./RabbitMQManager.js');
+    const RabbitMQManager = require('rabbitmq-management-api');
     
     // Define configuration options for connecting to the RabbitMQ Management API
     const config = {
