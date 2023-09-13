@@ -26,7 +26,7 @@ Create a RabbitMQ Manager client
     var RabbitMQManager = require('./RabbitMQManager.js');
     
     // Define configuration options for connecting to the RabbitMQ Management API
-	const config = {
+    const config = {
         baseURL: 'http://localhost:15671', // RabbitMQ Manager API base URL
         timeout: 5000, // Request timeout in milliseconds
         auth: {
